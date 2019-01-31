@@ -1,4 +1,4 @@
-package com.company;
+package com.company.Runnables;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -7,30 +7,25 @@ import java.net.URL;
 
 public class HttpRequestRunnable implements Runnable {
 
-    int _petitionNumber = -1;
-    int _resultCode = 200;
     Exception _exception = null;
+    String _host;
 
 
-    public HttpRequestRunnable(int petitionNumber){
-        _petitionNumber = petitionNumber;
+    public HttpRequestRunnable(String host){
+        _host = host;
     }
 
     @Override
     public void run() {
         try {
-            getHTML("http://calxitu.ddns.net", _petitionNumber);
+            getHTML(_host);
         } catch (Exception e) {
             _exception = e;
         }
     }
 
-    public int getResultCode(){
-        return _resultCode;
-    }
 
-
-    public static void getHTML(String urlString, Integer pet) throws Exception{
+    public static void getHTML(String urlString) throws Exception{
         StringBuilder result = new StringBuilder();
         URL url = new URL(urlString);
         HttpURLConnection conn = (HttpURLConnection) url.openConnection();
@@ -41,6 +36,6 @@ public class HttpRequestRunnable implements Runnable {
             result.append(line);
         }
         rd.close();
-        System.out.println(pet + "->" + result.toString());
+        System.out.println(result.toString());
     }
 }

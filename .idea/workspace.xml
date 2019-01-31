@@ -2,27 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32adfcb3-476c-4d83-9d98-6ddbe4316ebe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/ActionFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Actions/Action.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Actions/IncrementalAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Actions/SimultanousAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Builders/ARPing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Builders/GenericInstruction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Builders/Instruction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Builders/ParamDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Builders/UniqueParam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Readers/ARPingParameters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Readers/BasicParameters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Readers/ExecutableParameters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Readers/GlobalParametersReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Readers/HttpParameters.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NetworkTester/com/company/CmdRunnable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NetworkTester/com/company/HttpRequestRunnable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NetworkTester/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NetworkTester/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/CmdRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Runnables/CmdRunnable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/HttpRequestRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Runnables/HttpRequestRunnable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/ActionFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/ActionFactory.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -57,7 +37,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="10007" />
+          <entry key="JAVA" value="10020" />
           <entry key="PLAIN_TEXT" value="19" />
         </counts>
       </usages-collector>
@@ -65,11 +45,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/ActionFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="38" column="29" lean-forward="true" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
+            <state relative-caret-position="345">
+              <caret line="23" column="47" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -134,13 +114,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Readers/ExecutableParameters.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+            <state relative-caret-position="255">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#386#387#0" expanded="true" />
                 <element signature="e#437#438#0" expanded="true" />
               </folding>
             </state>
@@ -228,9 +209,9 @@
         <option value="$PROJECT_DIR$/src/com/company/Main.java" />
         <option value="$PROJECT_DIR$/src/com/company/Readers/BasicParameters.java" />
         <option value="$PROJECT_DIR$/src/com/company/Readers/HttpParameters.java" />
-        <option value="$PROJECT_DIR$/src/com/company/ActionFactory.java" />
         <option value="$PROJECT_DIR$/src/com/company/Readers/ARPingParameters.java" />
         <option value="$PROJECT_DIR$/src/com/company/Readers/ExecutableParameters.java" />
+        <option value="$PROJECT_DIR$/src/com/company/ActionFactory.java" />
       </list>
     </option>
   </component>
@@ -307,7 +288,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548950219316" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548951095614" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -326,7 +307,7 @@
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
       <module name="NetworkTester" />
-      <option name="PROGRAM_PARAMETERS" value="arping 192.168.3.1 11:11:11:11:11:11 -n 10" />
+      <option name="PROGRAM_PARAMETERS" value="arping 192.168.3.1 11:11:11:11:11:11 -n 10 -I -d 1000 -i 1" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method v="2">
@@ -352,18 +333,18 @@
       <workItem from="1548343489532" duration="3000" />
       <workItem from="1548675851341" duration="5668000" />
       <workItem from="1548853508670" duration="600000" />
-      <workItem from="1548926661294" duration="17492000" />
+      <workItem from="1548926661294" duration="18377000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23763000" />
+    <option name="totallyTimeSpent" value="24648000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="-2" width="1920" height="1202" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24866596" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24866596" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -372,13 +353,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3283582" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39925373" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3283582" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39925373" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32929105" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3291866" />
@@ -398,6 +379,32 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/company/ActionFactory.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>arguments.length</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>arguments[0]</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/company/Builders/Command.java">
@@ -526,16 +533,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/ActionFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="29" lean-forward="true" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Readers/BasicParameters.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -580,6 +577,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Readers/ExecutableParameters.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#386#387#0" expanded="true" />
+            <element signature="e#437#438#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Readers/ARPingParameters.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -590,13 +599,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Readers/ExecutableParameters.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/ActionFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+        <state relative-caret-position="345">
+          <caret line="23" column="47" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#437#438#0" expanded="true" />
           </folding>
         </state>
       </provider>

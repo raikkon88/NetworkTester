@@ -19,17 +19,17 @@ public class ActionFactory {
 
         if(arguments.length < 1) throw new Exception("Not enought arguments");
 
-        BasicParameters parameters = null;
+        BasicParameters parameters;
         GlobalParametersReader reader = new GlobalParametersReader();
-        HashMap<String, String> parameterValues = null;
+        HashMap<String, String> parameterValues;
 
-        if (arguments[0].equals(ACTION_HTTP) && arguments.length > 2 && arguments.length < 7) {
+        if (arguments[0].equals(ACTION_HTTP) && arguments.length > 3 && arguments.length < 7) {
             parameterValues = reader.read(arguments, 2);
             parameters = new HttpParameters( parameterValues, arguments[1]);
-        } else if (arguments[0].equals(ACTION_ARPING) && arguments.length > 3 && arguments.length < 8) {
+        } else if (arguments[0].equals(ACTION_ARPING) && arguments.length > 4 && arguments.length < 11) {
             parameterValues = reader.read(arguments, 3);
             parameters = new ARPingParameters(parameterValues, arguments[1], arguments[2]);
-        } else if (arguments[0].equals(ACTION_EXECUTABLE) && arguments.length > 1) {
+        } else if (arguments[0].equals(ACTION_EXECUTABLE) && arguments.length > 3) {
             parameterValues = reader.read(arguments, 1);
             parameters = new ExecutableParameters(parameterValues);
         } else {

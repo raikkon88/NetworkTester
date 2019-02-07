@@ -26,7 +26,7 @@ public class ARPingParameters extends HttpParameters {
     public Action createAction(){
 
         Instruction instruction = new UniqueParam(new ARPing(), "-d", getHost());
-        instruction = new UniqueParam(instruction, "-p", "");
+        instruction = new UniqueParam(instruction, "-p", ""); // Using inet with promiscuous mode.
         instruction = new UniqueParam(instruction, "-s", getMac());
         instruction = new UniqueParam(instruction, "-c", Integer.toString(1));
         instruction = new UniqueParam(instruction, "-u", "");
